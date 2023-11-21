@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Blackadder;
+    src: url("BITCBLKAD.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;  
+}
+
+header {
+    padding: 10px;
+    text-align: left;
+    background: rgb(188, 26, 26);
+    color: rgb(1, 0, 0);
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: Blackadder;
+}
+
+#title h1 {
+    font-size: xx-large;
+}
+
+ul{
+    list-style: none;
+}
+
+#liens nav ul li a{
+    font-size: x-large;
+    color: #000000;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#liens nav ul li a:hover {
+    color:orange;
+}
