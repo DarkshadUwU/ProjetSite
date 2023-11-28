@@ -44,3 +44,29 @@ ul{
 #liens nav ul li a:hover {
     color:orange;
 }
+
+.homepage {
+    padding: 100px;
+    text-align: left;
+    background: rgb(148, 111, 111);
+    color: rgb(1, 0, 0);
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width:300px;
+    height: 200px;
+}
+
+#popularforum nav ul h1{
+    text-align:right;
+    font-size: x-large;
+    color: #ff0000;
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+}
+
