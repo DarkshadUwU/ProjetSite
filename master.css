@@ -44,16 +44,21 @@ ul{
 #liens nav ul li a:hover {
     color:orange;
 }
+body{
+    background-color: black;
+    color: #ff0000;
+}
 
 .homepage {
-    padding: 100px;
+    padding: 50px;
     text-align: left;
-    background: rgb(148, 111, 111);
-    color: rgb(1, 0, 0);
+    background: rgb(0, 0, 0);
+    color: rgb(152, 100, 100);
     font-size: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex:content;
 }
 
 img {
@@ -61,12 +66,25 @@ img {
     height: 200px;
 }
 
-#popularforum nav ul h1{
+#popularforum h1{
+    
     text-align:right;
     font-size: x-large;
     color: #ff0000;
-    background: rgb(0, 0, 0);
+    background: rgb(154, 105, 105);
     padding: 10px;
-    border-radius: 20px;
+    border:10px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+.forum {
+    display: grid; justify-content: center;
+}
+
+.popularforum table thead{
+    width: 2;
 }
 
