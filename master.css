@@ -86,5 +86,9 @@ img {
 
 .popularforum table thead{
     width: 2;
+    font-size: x-large;
+}
+.msg {
+    font-size: x-large;
 }
 
